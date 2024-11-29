@@ -30,21 +30,21 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              This is Abhinandan
+              This is Ravish
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
+              I turn vision into reality through code, blending creativity with
+              technical expertise. Whether building responsive websites or
+              dynamic digital solutions, I bring my commitment to design
               excellence and user-centered thinking to every project I work on.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest projects showcasing my expertise in Reactjs,
-              Nextjs, Javascript, Typescript, PostgreSQL, Prisma, Drizzle,
-              MongoDB and more...
+              Nextjs, Javascript, Typescript, NodeJs MongoDB and more...
             </p>
           </FadeUp>
           <FadeRight
@@ -63,7 +63,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Noida, India
+              Uttarakhand, India
             </span>
           </FadeRight>
         </AnimatePresence>

@@ -8,18 +8,18 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Abhinandan - Full Stack Developer Portfolio"
-        description="Explore a collection of projects by Abhinandan, a seasoned Full Stack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Ravish - Full Stack Developer Portfolio"
+        description="Explore a collection of projects by Ravish, a seasoned Full Stack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Abhinandan - Full Stack Developer",
+          title: "Discover Projects by Ravish - Full Stack Developer",
           description:
-            "Explore a showcase of projects crafted by Abhinandan, a Full Stack Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Ravish, a Full Stack Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Abhinandan - Portfolio Image",
+              alt: "Ravish - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects, Portfolio, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects, Portfolio, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, Nodejs, Backend Development, Web Applications, Responsive Design",
           },
         ]}
       />
@@ -52,10 +52,10 @@ export default function Projects() {
             ))}
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
-            <span className="text-xl font-bold md:text-2xl">
+            {/* <span className="text-xl font-bold md:text-2xl">
               I am currently working on a new project to detect the skin cancer
               using AI an ML models
-            </span>
+            </span> */}
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}
               <a

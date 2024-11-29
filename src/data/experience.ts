@@ -2,24 +2,24 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "OpenSource Contributor",
+    title: "Intern",
     organisation: {
-      name: "NextUI",
-      href: "https://nextui.com/",
+      name: "Kirabiz Technologies",
+      href: "https://kirabiz.in/",
     },
-    date: "July 2024 - Present",
+    date: "May 2024 - July 2024",
     location: "Remote",
     description:
-      "Contributed to NextUI for resolving issues and adding many value features, which brought offer from CEO to join their NextUI",
+      "Worked on real life projects with developers. Implemented a real time collaboration feature in a team project, enhanancing communication and efficiency.",
   },
   {
     title: "Intern",
     organisation: {
-      name: "SkilledUp",
-      href: "https://www.skilledup.tech/",
+      name: "Systemic Altruism",
+      href: "https://systemicaltruism.com/",
     },
     date: "Apr 2024 - May 2024",
-    location: "Noida",
+    location: "Remote",
     description: "NextJS, TailwindCSS, NodeJS, Express, MongoDB",
   },
 ];

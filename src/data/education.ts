@@ -2,36 +2,24 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Computer Science",
+    title: "Bachelor Of Arts",
     organisation: {
-      name: "JSS Academy of Technical Education",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Indira Gandhi National Open University",
+      href: "https://www.ignou.ac.in/",
     },
-    date: "2022-2026",
-    location: "Noida",
-    description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network, Operating Systems, OOPS,  and Database Management.",
+    date: "2020-2023",
+    location: "Uttarakhand, Dehradun",
+    description: "",
   },
   {
-    title: "Senior Secondary [12th]",
+    title: "Certificate in Information Technology",
     organisation: {
-      name: "Dujana Public Senior Seconadry School",
-      href: "https://school.careers360.com/schools/dujana-public-school-dujana-gautam-budh-nagar",
+      name: "Indira Gandhi National Open University",
+      href: "https://www.ignou.ac.in/",
     },
-    date: "2020-2022",
-    location: "Dadri, Noida",
+    date: "2022-2024",
+    location: "Uttarakhand, Dehradun",
     description:
       "Learned the basics of computer science and programming languages. Participated in various hackathons and coding competitions.",
-  },
-  {
-    title: "Secondary Education [10th]",
-    organisation: {
-      name: "Nav Uday Public School",
-      href: "https://www.facebook.com/Navudaydhaulana/",
-    },
-    date: "2017-2018",
-    location: "Andheri, Noida",
-    description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
   },
 ];

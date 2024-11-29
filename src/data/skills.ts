@@ -1,9 +1,9 @@
 import {
   SiExpress,
   SiSocketdotio,
-  SiPrisma,
+  // SiPrisma,
   SiNextdotjs,
-  SiFlask,
+  // SiFlask,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -19,13 +19,13 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
-import JavaSvg from "@/public/icons/java.svg";
-import CppSvg from "@/public/icons/cpp.svg";
-import CSvg from "@/public/icons/c.svg";
+// import JavaSvg from "@/public/icons/java.svg";
+// import CppSvg from "@/public/icons/cpp.svg";
+// import CSvg from "@/public/icons/c.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
+// import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
@@ -33,17 +33,17 @@ import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
-import DjangoSvg from "@/public/icons/django.svg";
+// import DjangoSvg from "@/public/icons/django.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
-import MysqlSvg from "@/public/icons/mysql.svg";
+// import MysqlSvg from "@/public/icons/mysql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
+// import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 import RedisSvg from "@/public/icons/redis.svg";
 
@@ -71,18 +71,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Python",
         icon: PythonSvg,
       },
-      {
-        name: "Java",
-        icon: JavaSvg,
-      },
-      {
-        name: "C++",
-        icon: CppSvg,
-      },
-      {
-        name: "C",
-        icon: CSvg,
-      },
+      // {
+      //   name: "Java",
+      //   icon: JavaSvg,
+      // },
+      // {
+      //   name: "C++",
+      //   icon: CppSvg,
+      // },
+      // {
+      //   name: "C",
+      //   icon: CSvg,
+      // },
       {
         name: "Sass",
         icon: SassSvg,
@@ -100,10 +100,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Nextjs",
         icon: SiNextdotjs,
       },
-      {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
+      // {
+      //   name: "Solidjs",
+      //   icon: SolidjsSvg,
+      // },
       {
         name: "React Router Dom",
         icon: ReactRouterDomIcon,
@@ -149,14 +149,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Socket.io",
         icon: SiSocketdotio,
       },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
-      {
-        name: "Django",
-        icon: DjangoSvg,
-      },
+      // {
+      //   name: "Flask",
+      //   icon: SiFlask,
+      // },
+      // {
+      //   name: "Django",
+      //   icon: DjangoSvg,
+      // },
     ],
   },
   {
@@ -170,14 +170,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Postgress",
         icon: PostgressSvg,
       },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
-      },
-      {
-        name: "Mysql",
-        icon: MysqlSvg,
-      },
+      // {
+      //   name: "Prisma",
+      //   icon: SiPrisma,
+      // },
+      // {
+      //   name: "Mysql",
+      //   icon: MysqlSvg,
+      // },
     ],
   },
   {
@@ -191,10 +191,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Docker",
         icon: DockerSvg,
       },
-      {
-        name: "AWS",
-        icon: AwsSvg,
-      },
+      // {
+      //   name: "AWS",
+      //   icon: AwsSvg,
+      // },
       {
         name: "Postman",
         icon: PostmanSvg,

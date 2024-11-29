@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { useState } from "react";
 
 import { Field, Form, Formik } from "formik";
@@ -38,7 +37,7 @@ export default function ContactForm() {
 
   const handleSubmit = async (
     values: Yup.InferType<typeof mailValidationSchema>,
-    { resetForm }: FormikSubmitHandler,
+    { resetForm }: FormikSubmitHandler
   ) => {
     setIsSendingMail(true);
     try {
